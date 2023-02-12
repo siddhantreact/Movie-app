@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.landing_video_container{
+
+  
+    width: 100vw;
+
+   
+
+}
+
+
+.landing_container{
+ 
+    position: relative;
+
+}
+
+
+.landing_child_container{
+
+    position: absolute;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  gap: 1rem;
+  margin-top: -500px;
+  margin-left: 2rem;
+
+  background-color: wheat;
+  width: 50rem;
+  height: 10rem;
+  border-radius: 10px;
+
+ 
+
+}
+
+footer{
+    background-color: burlywood;
+    display: grid;
+    place-content: center;
+}
